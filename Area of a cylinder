@@ -1,0 +1,5 @@
+cylinder <- function(r,h){
+  area<- 2*pi*r^2 +2*pi*r*h
+  return(area)
+}
+cylinder(7,14)
